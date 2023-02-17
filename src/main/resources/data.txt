@@ -1,0 +1,8 @@
+CREATE TABLE pagamentos (
+    pagamento_id int NOT NULL PRIMARY KEY,
+    documento varchar(255) NOT NULL,
+    metodo_pagamento varchar(255) NOT NULL,
+    status_pagamento varchar(255) NOT NULL,
+    numero_cartao int,
+    valor_pagamento numeric(20,2) NOT NULL
+);
